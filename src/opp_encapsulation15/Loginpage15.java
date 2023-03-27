@@ -1,4 +1,4 @@
-package opp_encapsulation;
+package opp_encapsulation15;
 
 public class Loginpage15 {
 
@@ -27,13 +27,10 @@ public class Loginpage15 {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	
-	
-	//this is also encapsulation
+
+	// this is also encapsulation
 	public String getUserInfo() {
-		return username+" "+password+" "+role; 
+		return username + " " + password + " " + role;
 	}
-	
-	
 
 }

@@ -1,14 +1,13 @@
-package opp_encapsulation;
+package opp_encapsulation15;
 
 public class TestingConstrucor15 {
-
 
 	int a;
 	int b;
 	int c;
 
 	public TestingConstrucor15() {
-		this(1,9);
+		this(1, 9);
 		System.out.println("hi");
 	}
 
