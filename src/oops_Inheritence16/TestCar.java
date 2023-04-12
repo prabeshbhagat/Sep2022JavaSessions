@@ -10,8 +10,10 @@ public class TestCar {
 		b1.refuel();//--Inherited Method
 		b1.autoParking();//--Indvidual Method
 		BMW.billing();
-		b1.engine();
+		b1.getBMWEngineInfo();
 		
+		System.out.println(b1.speed);
+		System.out.println("--------car------------");
 		Car c1= new Car();
 		c1.start();
 		c1.stop();
@@ -21,7 +23,7 @@ public class TestCar {
 		
 		System.out.println("--------------------");
 		
-		//Top casting
+		//Top/up casting
 		//child class object can be referred by parent class ref variable
 		Car c2=new BMW();
 		c2.start();
@@ -29,8 +31,16 @@ public class TestCar {
 		c2.refuel();
 		c2.engine();
 		//c2.auto//not allowed
+		//ref type check will fail
 		
-		//Down cating 
+		
+		//child class object can be referred by grand parent class ref variable
+		Vehicle v=new BMW();
+		v.engine();
+	
+			
+		
+		//Down casting 
 		////Parent class object can be referred by child class ref variable
 		//BMW b2=new Car();//Type mismatch: cannot convert from Car to BMW
 		BMW b2=(BMW) new Car();
