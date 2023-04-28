@@ -5,4 +5,8 @@ Exception in thread "main" java.lang.ClassCastException: oops_Inheritence16.Car 
 	at oops_Inheritence16.TestCar.main(TestCar.java:33)
 	
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 105
+
+
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 8, Size: 6
+	
 	
