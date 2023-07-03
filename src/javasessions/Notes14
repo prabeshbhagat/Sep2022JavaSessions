@@ -1,5 +1,5 @@
-business logic should not be writen in constructor
+business logic should not be written in constructor
 we can use methods & functions
-construct the obeject according to requirement
-restrict unnescicary ohbejct creation
+construct the object according to requirement
+restrict unnesscicary object creation
 e.g user with first name last name id can create an object of emp i.e restriction

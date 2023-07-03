@@ -2,7 +2,7 @@ package JavaQuestiones;
 
 import java.util.Scanner;
 
-public class PrintInteger {
+public class PrintIntegerEnteredByUSer1 {
 
 	public static void main(String[] args) {
 

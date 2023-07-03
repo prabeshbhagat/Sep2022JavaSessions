@@ -23,6 +23,8 @@ public class RealPageMoveIndexByOneUsingArrayList {
 			list.set(i, list.get(i - 1));
 		}
 		list.set(0, lastValue);
+		
+		// Collections.rotate(numbers, 2); using collections
 	}
 
 }

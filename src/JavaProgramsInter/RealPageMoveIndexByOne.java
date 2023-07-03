@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class RealPageMoveIndexByOne {
 
 	public static void main(String[] args) {
-
 		int[] values = { 10, 20, 30, 40, 50 };
 		moveIndexByOne(values);
 		System.out.println(Arrays.toString(values));

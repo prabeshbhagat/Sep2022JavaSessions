@@ -46,8 +46,8 @@ public class Employee09 {
 		Employee09 e3=new Employee09();
 		e3=null;
 		//e3.name="Shardul";
-		//System.out.println(	e3.name);//NullPointerException
-		//as object is pointing to 
+		//System.out.println(e3.name);//NullPointerException
+		//as object is pointing to null
 
 		
 		//5--Creating a reference variable without creating object

@@ -33,6 +33,7 @@ public class Employee15 {
 	public static void main(String[] args) {
 		Employee15 e1 = new Employee15();
 		e1.age = 20;
+		System.out.println(e1.age);
 		Browser15 b1 = new Browser15();
 		b1.launchBrowser();
 	}

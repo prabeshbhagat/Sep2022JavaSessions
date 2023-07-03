@@ -1,32 +1,32 @@
 package JavaProgramsInter;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Practice {
 
 	public static void main(String[] args) {
+		String str = "This is a Java Program";
+		printEachWordReverse(str);
 
-		ArrayList<Integer> arr = new ArrayList<>();
-		arr.add(10);
-		arr.add(20);
-		arr.add(30);
-		arr.add(40);
-		arr.add(50);
-		System.out.println("Original values "+arr);
-		moveIndexByOne(arr);
-		System.out.println("Values moved by one "+arr);
 	}
 
-	public static void moveIndexByOne(List<Integer> list) {
-		int lastValue = list.get(list.size() - 1);
+	public static void printEachWordReverse(String line) {
 
-		for (int i = list.size() - 1; i > 0; i--) {
-			list.set(i, list.get(i - 1));
-			System.out.println("    "+i);
+		// TODO: Also we can use Stacks for this programming question
+
+		String[] a = line.split(" ");
+		String reverse = "";
+		// String reverseString = "";
+
+		for (int i = 0; i < a.length; i++) {
+			int lengthOfEachWord = a[i].length();
+
+			for (int j = lengthOfEachWord - 1; j >= 0; j--) {
+				reverse = String.valueOf(a[i].charAt(j));
+				System.out.print(reverse);
+				// reverseString += reverse;
+			}
+			System.out.print(" ");
 		}
-
-		list.set(0, lastValue);
 
 	}
 

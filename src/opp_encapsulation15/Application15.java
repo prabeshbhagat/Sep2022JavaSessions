@@ -16,6 +16,6 @@ public class Application15 {
 
 	// System class is the best example of the private constructor with public
 	// method
-	// object creation is retriced via private constructor
+	// object creation is restricted via private constructor
 
 }

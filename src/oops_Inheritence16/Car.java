@@ -5,11 +5,11 @@ public  class Car extends Vehicle {
 	int speed=100;
 	
 	//final:
-	//1. prevents method overriding:
+	//1. with methods-- prevents method overriding:
 	//error--Cannot override the final method from Car
-	//2.Prevent Inheritence
+	//2.with class Prevent Inheritence
 	//error--The type BMW cannot subclass the final class Car
-	//3.to provide the constant values to a variable.
+	//3. with variables to provide the constant values to a variable.
 	
 	public Car() {
 		System.out.println("--Car const----");

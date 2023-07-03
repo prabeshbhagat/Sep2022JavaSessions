@@ -1,6 +1,6 @@
 package JavaQuestiones;
 
-public class AddNumbers {
+public class AddNumbers2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

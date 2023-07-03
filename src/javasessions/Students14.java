@@ -2,7 +2,7 @@ package javasessions;
 
 public class Students14 {
 
-	// method overlaoding poly9many) morphism(forms):complie time ;decisoin is taken
+	// method overlaoding poly9many) morphism(forms):compile time ;decisoin is taken
 	// during compliation
 	// Within the same class we have multiple methods
 	// 1.With the same method name

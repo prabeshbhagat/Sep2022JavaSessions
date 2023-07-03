@@ -4,7 +4,6 @@ public class TestCar {
 
 	public static void main(String[] args) {
 		BMW b1= new BMW();
-		
 		b1.start();//--overiden method
 		b1.stop();//--Inherited Method
 		b1.refuel();//--Inherited Method
@@ -41,7 +40,7 @@ public class TestCar {
 			
 		
 		//Down casting 
-		////Parent class object can be referred by child class ref variable
+		//Parent class object can be referred by child class ref variable
 		//BMW b2=new Car();//Type mismatch: cannot convert from Car to BMW
 		BMW b2=(BMW) new Car();
 		
