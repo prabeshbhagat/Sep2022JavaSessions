@@ -5,6 +5,16 @@ import java.util.Arrays;
 public class StringManipulation23_24 {
 
 	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		int a=Integer.parseInt(num);
+		System.out.println("The value of a is :"+a);
+		int b=2;
+		int sum= a+b;
+		System.out.println(sum);
 
 		String s = "testing";
 		String s1 = "2";
@@ -29,15 +39,18 @@ public class StringManipulation23_24 {
 		System.out.println(str.indexOf('i', (str.indexOf('i', (str.indexOf('i')) + 1)) + 1));
 
 		System.out.println(str.indexOf("This"));// 3
-		System.out.println(str.indexOf("Delhi"));// 3
+		System.out.println(str.indexOf("Delhi"));// -1 when not found within the string
+		//as return type is always integer
 
 		String mesg = "Welcome Prabesh";
+		System.out.println(mesg.indexOf("Prabesh") );
 		if (mesg.indexOf("Prabesh") != -1) {
 			System.out.println("Valid Username");
 		} else {
 			System.out.println("Invaid Username");
 		}
-
+		//==  will check the pointing
+		//with new key word ref will only point to heap area not to the scp
 		// Comparision
 		// String Literals
 		String t1 = "Hello World";//scp 1 obj
@@ -48,7 +61,7 @@ public class StringManipulation23_24 {
 
 		String t3 = new String("Hello Prabesh");// SCP+Heap//2 objects will be created
 		String t4 = "Hello Prabesh";// 0 obj will be created
-
+		System.out.println("------***--------");
 		System.out.println(t3.equals(t4));
 		System.out.println(t3 == t4);
 
@@ -77,6 +90,8 @@ public class StringManipulation23_24 {
 		String z1=new String("Java");
 		String z2=new String("Java");
 		
+		//==  will check the pointing
+		//with new key word ref will only point to heap area not to the scp
 		System.out.println(z1.equals(z2));//true
 		System.out.println(z1==z2);//false
 
