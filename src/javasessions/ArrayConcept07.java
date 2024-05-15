@@ -72,6 +72,7 @@ public class ArrayConcept07 {
 		d[0] = 10.22;
 		d[1] = 14.22;
 		System.out.println(Arrays.toString(d));
+		System.out.println("===="+d.length);
 
 		// using char
 		char c[] = new char[3];

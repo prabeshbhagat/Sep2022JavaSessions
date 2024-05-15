@@ -4,7 +4,7 @@ public class TestMethod10_11 {
 
 	// data members
 	// 1.class variables
-	// 2.methods/functions
+	// 2.methods/.
 
 	// types of methods/functions
 	// cannot create a function inside a function

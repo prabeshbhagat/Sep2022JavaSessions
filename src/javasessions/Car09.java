@@ -18,9 +18,8 @@ public class Car09 {
 		
 		Car09 c2 = new Car09();
 		c2.name="Mini Cooper";
-		
 		c2.type="Mini car";
-		
+
 		System.out.println(c1.name+" "+c1.Color+" "+c1.price+" "+c1.type);
 		System.out.println(c2.name+" "+c2.Color+" "+c2.price+" "+c2.type);
 		c2.price=25.66;

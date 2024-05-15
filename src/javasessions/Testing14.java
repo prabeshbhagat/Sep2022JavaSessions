@@ -20,10 +20,8 @@ public class Testing14 {
 	}
 
 	public static void main(String[] args) {
-
 		Testing14 obj = new Testing14();
 		obj.m1();
-
 	}
 
 }
